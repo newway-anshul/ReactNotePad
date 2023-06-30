@@ -1,0 +1,26 @@
+@import "../../var.scss";
+header {
+  height: $headerHeight;
+  div.topHeader {
+    display: flex;
+    align-items: center;
+    background: lightgrey;
+    color: black;
+    padding: 5px;
+    padding-left: 0px;
+    font-weight: 600;
+    img.appIcon {
+      height: 30px;
+    }
+    div.appTitle {
+    }
+  }
+  div.subMenu {
+    border-bottom: 2px solid gray;
+    display: flex;
+    div.menu {
+      padding-inline: 5px;
+      cursor: pointer;
+    }
+  }
+}

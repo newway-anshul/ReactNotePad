@@ -1,0 +1,1 @@
+footer.appFooter{height:25px;display:flex;width:100%;border-top:2px solid gray;padding-top:5px;padding-bottom:5px}footer.appFooter>div{display:inherit;-moz-column-gap:10px;column-gap:10px}footer.appFooter div.docType{flex:2;padding-left:5px}footer.appFooter div.docInfo{flex:1}footer.appFooter div.cursorInfo{flex:1}

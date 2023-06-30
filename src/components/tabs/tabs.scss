@@ -1,0 +1,43 @@
+@import "../../var.scss";
+div.appTabs {
+  margin-top: 2px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  // height: calc(100vh - $footerHeight - $headerHeight);
+  div.tabs {
+    display: flex;
+    background-color: #d3d3d38a;
+    user-select: none;
+    div.tab {
+      display: flex;
+      column-gap: 2px;
+      background-color: #b9b5b5;
+      align-items: center;
+      filter: opacity(0.5);
+      cursor: pointer;
+      border-top: 3px solid #939393;
+      border-right: 3px solid white;
+      div.tabName {
+        font-size: 14px;
+      }
+      &.activeTab {
+        border-top: 4px solid orange;
+        background-color: #e1dfdf;
+        border-right: 2px solid gray;
+        filter: unset;
+        margin-left: 1.5px;
+        div.tabName {
+          font-size: 15px;
+        }
+      }
+      img {
+        width: 15px;
+        &.closeTab {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

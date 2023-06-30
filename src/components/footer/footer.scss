@@ -1,0 +1,23 @@
+@import "../../var.scss";
+footer.appFooter {
+  height: $footerHeight;
+  display: flex;
+  width: 100%;
+  border-top: 2px solid gray;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  & > div {
+    display: inherit;
+    column-gap: 10px;
+  }
+  div.docType {
+    flex: 2;
+    padding-left: 5px;
+  }
+  div.docInfo {
+    flex: 1;
+  }
+  div.cursorInfo {
+    flex: 1;
+  }
+}
